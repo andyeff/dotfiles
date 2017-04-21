@@ -1,0 +1,5 @@
+--no-playlist
+--no-mtime
+-f 'bestvideo[height<=?1440]+bestaudio/bestvideo[height<=?1080][ext=mp4]+bestaudio[ext=m4a]/best'
+-o "~/Downloads/%(title)s.%(ext)s"
+--restrict-filenames
