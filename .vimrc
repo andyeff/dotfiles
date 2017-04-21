@@ -43,7 +43,7 @@ set expandtab
 set showcmd  
   
 "Show lines numbers  
-set number  
+"set number  
 
 "Prefer relative line numbering?  
 set relativenumber  
